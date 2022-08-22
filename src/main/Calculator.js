@@ -1,9 +1,11 @@
 import Button from "../components/Button";
+import Display from "../components/Display";
 import "./Calculator.css";
 
 const Calculator = () => {
   return (
     <div className="calculator">
+      <Display value={100} />
       <Button label="AC" />
       <Button label="/" />
       <Button label="7" />
